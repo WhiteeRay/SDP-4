@@ -2,9 +2,7 @@ package com.example.socialmedia.platform;
 
 import com.example.socialmedia.sender.MessageSender;
 
-/**
- * Refined Abstraction: Twitter (X) platform.
- */
+
 public final class Twitter extends SocialMediaPlatform {
 
     public Twitter(MessageSender sender) {

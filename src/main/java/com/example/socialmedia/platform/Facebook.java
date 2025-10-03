@@ -2,9 +2,7 @@ package com.example.socialmedia.platform;
 
 import com.example.socialmedia.sender.MessageSender;
 
-/**
- * Refined Abstraction: Facebook platform.
- */
+
 public final class Facebook extends SocialMediaPlatform {
 
     public Facebook(MessageSender sender) {

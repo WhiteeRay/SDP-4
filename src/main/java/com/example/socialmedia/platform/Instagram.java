@@ -2,9 +2,7 @@ package com.example.socialmedia.platform;
 
 import com.example.socialmedia.sender.MessageSender;
 
-/**
- * Refined Abstraction: Instagram platform.
- */
+
 public final class Instagram extends SocialMediaPlatform {
 
     public Instagram(MessageSender sender) {

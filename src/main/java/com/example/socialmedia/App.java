@@ -1,11 +1,10 @@
 package com.example.socialmedia;
 
 import com.example.socialmedia.platform.*;
-import com.example.socialmedia.sender.*;
+import com.example.socialmedia.sender.ApiSender;
+import com.example.socialmedia.sender.EmailSender;
+import com.example.socialmedia.sender.SmsSender;
 
-/**
- * Demo application for Social Media + Bridge Pattern.
- */
 public final class App {
     public static void main(String[] args) {
         var apiSender = new ApiSender();
